@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import logo from './quadraphic.png';
 //import datafile from './Data';
+//import myData from './Data/products.json';
 import './App.css';
 import Product from './Product/Product';
 //import Person from './Product/Product';
 import Login from './Login/Login';
-
+ 
 //import {Router, Route, IndexRoute, hashHistory} from "route";
 //import fetchapi from 
 
@@ -21,22 +22,18 @@ class App extends Component {
     ]
   }
 
- 
 
   btnClickHandler = () => {
-    this.loadData();
-    /* this.setState({
-      Persons:[
-        {name: 'Bidhan Sutar', age: 42},
-        {name: 'Tamasha Mohapatra', age: 36},
-        {name: 'Bidhisha Sutar', age: 7}
-      ] 
-    }) */
+    //this.loadData();
+    var myData = require('./Data/users.json'); 
+    this.setState({
+       Persons:myData
+    })
   }
 
   loadData = () =>{
     console.log("result");
-    fetch("https://randomuser.me/api")
+    fetch("datafile/users.json")
       .then(res => res.json())
       .then(
         (result) => {
