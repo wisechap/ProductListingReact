@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <element>
+      <ID>1</ID>
+      <Memory>64GB</Memory>
+      <OS>iOS</OS>
+      <Price>$650</Price>
+      <ProductName>Iphone 8</ProductName>
+   </element>
+   <element>
+      <ID>2</ID>
+      <Memory>64GB</Memory>
+      <OS>iOS</OS>
+      <Price>$750</Price>
+      <ProductName>Iphone 8 Plus</ProductName>
+   </element>
+   <element>
+      <ID>3</ID>
+      <Memory>64GB</Memory>
+      <OS>iOS</OS>
+      <Price>$950</Price>
+      <ProductName>Iphone X</ProductName>
+   </element>
+   <element>
+      <ID>4</ID>
+      <Memory>64GB</Memory>
+      <OS>iOS</OS>
+      <Price>$450</Price>
+      <ProductName>Iphone 7</ProductName>
+   </element>
+   <element>
+      <ID>5</ID>
+      <Memory>64GB</Memory>
+      <OS>iOS</OS>
+      <Price>$550</Price>
+      <ProductName>Iphone 7 Plus</ProductName>
+   </element>
+   <element>
+      <ID>6</ID>
+      <Memory>64GB</Memory>
+      <OS>iOS</OS>
+      <Price>$450</Price>
+      <ProductName>Samsung Galaxy 7</ProductName>
+   </element>
+   <element>
+      <ID>7</ID>
+      <Memory>64GB</Memory>
+      <OS>iOS</OS>
+      <Price>$550</Price>
+      <ProductName>Samsung Galaxy 7 Plus</ProductName>
+   </element>
+   <element>
+      <ID>8</ID>
+      <Memory>64GB</Memory>
+      <OS>iOS</OS>
+      <Price>$950</Price>
+      <ProductName>Samsung Galaxy Note 8</ProductName>
+   </element>
+   <element>
+      <ID>9</ID>
+      <Memory>64GB</Memory>
+      <OS>iOS</OS>
+      <Price>$850</Price>
+      <ProductName>Samsung Galaxy 8 Plus</ProductName>
+   </element>
+   <element>
+      <ID>10</ID>
+      <Memory>64GB</Memory>
+      <OS>iOS</OS>
+      <Price>$650</Price>
+      <ProductName>Samsung Galaxy 8</ProductName>
+   </element>
+</root>

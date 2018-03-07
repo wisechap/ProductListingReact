@@ -1,0 +1,72 @@
+[
+    {
+       "ID": "1",
+       "ProductName": "Iphone 8",
+       "Price": "$650",
+       "OS": "iOS",
+       "Memory": "64GB"
+    },
+    {
+       "ID": "2",
+       "ProductName": "Iphone 8 Plus",
+       "Price": "$750",
+       "OS": "iOS",
+       "Memory": "64GB"
+    },
+    {
+       "ID": "3",
+       "ProductName": "Iphone X",
+       "Price": "$950",
+       "OS": "iOS",
+       "Memory": "64GB"
+    },
+    {
+       "ID": "4",
+       "ProductName": "Iphone 7",
+       "Price": "$450",
+       "OS": "iOS",
+       "Memory": "64GB"
+    },
+    {
+       "ID": "5",
+       "ProductName": "Iphone 7 Plus",
+       "Price": "$550",
+       "OS": "iOS",
+       "Memory": "64GB"
+    },
+    {
+       "ID": "6",
+       "ProductName": "Samsung Galaxy 7",
+       "Price": "$450",
+       "OS": "iOS",
+       "Memory": "64GB"
+    },
+    {
+       "ID": "7",
+       "ProductName": "Samsung Galaxy 7 Plus",
+       "Price": "$550",
+       "OS": "iOS",
+       "Memory": "64GB"
+    },
+    {
+       "ID": "8",
+       "ProductName": "Samsung Galaxy Note 8",
+       "Price": "$950",
+       "OS": "iOS",
+       "Memory": "64GB"
+    },
+    {
+       "ID": "9",
+       "ProductName": "Samsung Galaxy 8 Plus",
+       "Price": "$850",
+       "OS": "iOS",
+       "Memory": "64GB"
+    },
+    {
+       "ID": "10",
+       "ProductName": "Samsung Galaxy 8",
+       "Price": "$650",
+       "OS": "iOS",
+       "Memory": "64GB"
+    }
+ ]

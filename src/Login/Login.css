@@ -1,0 +1,25 @@
+.divPadding{
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+.formPadding{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+.inputStyle{
+    width: 50%;
+    padding: 12px 20px 5px 5px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+.labelStyle{
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 0;
+}
