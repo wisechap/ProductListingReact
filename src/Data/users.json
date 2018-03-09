@@ -21,7 +21,7 @@
         "email": "lewis@me.com",
         "username": "user3",
         "password": "password3",
-        "id": 2
+        "id": 3
      },
      {
         "name": "Rot Wilter",
@@ -29,7 +29,7 @@
         "email": "rot@me.com",
         "username": "user4",
         "password": "password4",
-        "id": 2
+        "id": 4
      },
      {
         "name": "Rav Cameron",
@@ -37,7 +37,7 @@
         "email": "rav@me.com",
         "username": "user5",
         "password": "password5",
-        "id": 2
+        "id": 5
      },
     {
        "name": "Chris Moris",
@@ -45,6 +45,6 @@
        "email": "Chris@me.com",
        "username": "user6",
        "password": "password6",
-       "id": 3
+       "id": 6
     }
  ]

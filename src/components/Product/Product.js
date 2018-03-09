@@ -9,7 +9,7 @@ export default class Product extends React.Component{
     render(){
         console.log(this.props.click);
         return(
-                    <div className={classes.DivProd}>
+                    <div className="DivProd">
                         {
                             this.props.product.map((prod) => {
                                 return <Prod prod = {prod} key={prod.id} click={() => this.removeProduct(prod.id)}/>
