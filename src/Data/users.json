@@ -4,20 +4,23 @@
        "age": 42,
        "email": "bidhan@me.com",
        "username": "user1",
-       "password": "password1"
+       "password": "password1",
+       "id": 1
     },
     {
        "name": "Tamasha Mohapatra",
        "age": 36,
        "email": "tamasha@me.com",
        "username": "user2",
-       "password": "password2"
+       "password": "password2",
+       "id": 2
     },
     {
        "name": "Bidhisha Sutar",
        "age": 7,
        "email": "bidhisha@me.com",
        "username": "user3",
-       "password": "password3"
+       "password": "password3",
+       "id": 3
     }
  ]

@@ -1,8 +1,8 @@
 .divPadding{
     padding-top: 50px;
     padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
+    padding-bottom: 30px;
+    padding-left: 50px;
 }
 
 .formPadding{
@@ -12,7 +12,7 @@
     margin-left: 80px;
 }
 .inputStyle{
-    width: 50%;
+    width: 80%;
     padding: 12px 20px 5px 5px;
     margin: 5px 0;
     box-sizing: border-box;
