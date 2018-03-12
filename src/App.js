@@ -6,6 +6,7 @@ import './App.css';
 import Product from './components/Product/Product';
 import User from './components/Users/Users';
 import Login from './components/Login/Login';
+//import ReactDataGrid from './components/DataGrid/ReactDataGrid';
  
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
@@ -94,12 +95,13 @@ class App extends Component {
           <h1 className="App-title">Welcome to Product Listing</h1>
           
             <Link to="/">Home</Link> | <Link to="/Product">Product</Link> | <Link to="/User">Users</Link>
-        
+            | <Link to="/DataGrid">DataGrid</Link>        
         </header>
 
         <Route exact path="/" component={Login} />
         <Route path="/Product" render={() => <Product product={this.state.products} click={this.clearClickHandler}/>}/>
         <Route path="/User" render={() => <User users={this.state.Persons} />}/>
+        {/* <Route path="/DataGrid" component={ReactDataGrid} />}/> */}
 
         
         <button onClick={this.btnClickHandler}>Change Name</button>

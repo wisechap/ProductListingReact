@@ -1,6 +1,6 @@
 import React from 'react';
 import Prod from './Prod';
-import classes from './Product.css';
+import  './Product.css';
 
 export default class Product extends React.Component{
     removeProduct = (i) =>{
