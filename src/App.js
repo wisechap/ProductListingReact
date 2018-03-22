@@ -15,10 +15,11 @@ class App extends Component {
   state ={
     error: null,
     isLoaded: false,
-    products: []= require('./Data/products.json'),
-    Persons:[]= require('./Data/users.json'),
+    products: require('./Data/products.json'),
+    Persons: require('./Data/users.json'),
     otherState: 'some other value',
-    showPersons: false
+    showPersons: false,
+    prodindex : null 
   }
 
   nameChangedHandler = ( event, id ) => {
@@ -43,7 +44,7 @@ class App extends Component {
   deletePersonHandler = ( personIndex ) => {
     // const persons = this.state.persons.slice();
     const persons = [...this.state.persons];
-    persons.splice( personIndex, 1 );
+    persons.splice( personIndex , 1 );
     this.setState( { persons: persons } );
   }
 
@@ -72,21 +73,23 @@ class App extends Component {
   }
 
   clearClickHandler = (index) => {
-    console.log("Clear Form:" + index);
+    
+    const products = [...this.state.products];
+    console.log("Index: " + index + " ID: " + products[index-1].id);
+    products.splice(index-1, 1 );
+    this.setState({products:[]});
+    this.setState( { products: products } );
+    console.log(products.length)
   }
   changeHandler = (event) => {
     this.setState({
-      Persons:[
-        {name: 'Bidhan Sutar', age: 42},
-        {name: event.target.value, age: 36},
-        {name: 'Bidhisha Sutar', age: 7}
-      ]
+      Persons:[]
     })     
   }
+
+
   render() {
  
-
-
     return (
       <Router>
       <div className="App">

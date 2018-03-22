@@ -4,15 +4,19 @@ import  './Product.css';
 
 export default class Product extends React.Component{
     removeProduct = (i) =>{
-        console.log({i});
+        //console.log({i});
+        this.props.click(i);
     }
     render(){
-        console.log(this.props.click);
+        //console.log(this.props.click);
         return(
                     <div className="DivProd">
                         {
                             this.props.product.map((prod) => {
-                                return <Prod prod = {prod} key={prod.id} click={() => this.removeProduct(prod.id)}/>
+                                //console.log({prod})
+                                return (                                   
+                                    <Prod prod = {prod} key={prod.id} click={() => this.removeProduct(prod.id)}/>
+                                )
                             })   
                         }
                     </div> 
