@@ -14,7 +14,9 @@ class Prod extends React.Component{
         //console.log("From Prod:" + this.props.click);
         return(
             <div>
-                 Name: {this.props.prod.ProductName} | Price: {this.props.prod.Price} | Memory: {this.props.prod.Memory} - 
+                 <b className="b"> Name:</b> {this.props.prod.ProductName}<b className="separator"> | </b>
+                 <b className="b"> Price:</b> {this.props.prod.Price} <b className="separator">| </b> 
+                 <b className="b"> Memory:</b> {this.props.prod.Memory} <b className="s"> . </b>
                  <button onClick={this.props.click}>Delete</button>
             </div>
         )
