@@ -3,3 +3,14 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+a{
+  color: aquamarine;
+  text-decoration-style: none;
+  text-decoration-line: none;
+}
+
+a:hover{
+  color:yellowgreen;
+  text-decoration-line: unset;
+}
