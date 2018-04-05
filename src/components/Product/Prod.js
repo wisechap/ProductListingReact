@@ -13,12 +13,12 @@ class Prod extends React.Component{
         
         //console.log("From Prod:" + this.props.click);
         return(
-            <div>
-                 <b className="b"> Name:</b> {this.props.prod.ProductName}<b className="separator"> | </b>
-                 <b className="b"> Price:</b> {this.props.prod.Price} <b className="separator">| </b> 
-                 <b className="b"> Memory:</b> {this.props.prod.Memory} <b className="s"> . </b>
-                 <button onClick={this.props.click}>Delete</button>
-            </div>
+            <tr>
+                 <td className="b"> Name: {this.props.prod.ProductName}</td>
+                 <td className="b"> Price: {this.props.prod.Price}</td> 
+                 <td className="b"> Memory: {this.props.prod.Memory} </td>
+                 <td> <button onClick={this.props.click}>Delete</button> </td>
+            </tr>
         )
     }
 }

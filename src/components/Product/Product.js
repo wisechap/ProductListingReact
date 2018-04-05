@@ -14,8 +14,10 @@ export default class Product extends React.Component{
                         {
                             this.props.product.map((prod) => {
                                 //console.log({prod})
-                                return (                                   
-                                    <Prod prod = {prod} key={prod.id} click={() => this.removeProduct(prod.id)}/>
+                                return (
+                                    <table width="85%" border="1">                                   
+                                        <Prod prod = {prod} key={prod.id} click={() => this.removeProduct(prod.id)}/>
+                                    </table>
                                 )
                             })   
                         }

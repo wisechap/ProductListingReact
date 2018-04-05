@@ -96,7 +96,6 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to Product Listing</h1>
-          
             <Link to="/">Home</Link> | <Link to="/Product">Product</Link> | <Link to="/User">Users</Link>
             | <Link to="/DataGrid">DataGrid</Link>        
         </header>
