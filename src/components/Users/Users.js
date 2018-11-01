@@ -6,13 +6,21 @@ class Users extends React.Component{
     render(){
         //console.log(this.props);
         return (
-            <ul>
+            <div className="containerDiv">
+                <div className="rowDivHeader">
+                    <div className="cellDivHeader">USER NAME</div>
+                    <div className="cellDivHeader">EMAIL</div>
+                </div>
             {
                 this.props.users.map((user) => {
-                    return <User user = {user} key={user.id}/>
+                    return (
+                        
+                            <User user = {user} key={user.id}/>
+                        
+                    )                   
                 })   
             }
-            </ul> 
+            </div>
         )
     }
  }
